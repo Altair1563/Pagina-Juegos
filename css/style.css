@@ -1,0 +1,211 @@
+html {
+}
+
+header {
+    height: 240px;
+    background-image: url("/images/game-games-2014-best-wallpaper-preview.jpg");
+    background-position: initial;
+}
+
+.navbar{
+    
+}
+
+.logo {
+    justify-content: start;
+    position: static;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+.elementos-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.botones {
+    background-color: rgba(134, 124, 124, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px 0px 0px 25px;
+    
+}
+
+.btn-nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 5px;
+    color:white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+}
+
+p {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.secciones {
+    display: flex;
+    flex-direction: row;
+}
+
+.primera-seccion {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.carta {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(20, 14, 51);
+    
+}
+
+.carta img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.segunda-seccion{
+    
+    display: flex;
+    flex-direction:initial;
+   
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  .pagination li {
+    margin-right: 5px;
+  }
+  .pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .pagination a:hover {
+    background-color: #0056b3;
+  }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    width: 100%;
+    justify-content: center;
+    font-size: smaller;
+    color: #fff;
+
+}
+
+.sobre-nosotros {
+    display: flex;
+    color: #fff;
+    
+    
+    
+}
+
+.historia {
+    display: flex;
+}
+
+.hist-img {
+    margin: 10px;
+    
+}
+
+h2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.hist-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    padding: 25px;
+}
+
+.contacto{
+    margin: 15px;
+}
+
+.contacto-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.form {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 15px;
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
