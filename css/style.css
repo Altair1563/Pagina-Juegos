@@ -34,7 +34,6 @@ header {
 }
 
 .btn-nav {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
     padding-left: 50px;
     padding-right: 50px;
@@ -51,7 +50,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+    overflow-x: hidden; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
@@ -90,13 +90,6 @@ h3 {
     border-radius: 8px;
 }
 
-.segunda-seccion{
-    
-    display: flex;
-    flex-direction:initial;
-   
-}
-
 .pagination {
     display: flex;
     list-style: none;
@@ -132,9 +125,6 @@ footer {
 .sobre-nosotros {
     display: flex;
     color: #fff;
-    
-    
-    
 }
 
 .historia {
